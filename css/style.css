@@ -1,0 +1,370 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 20px 0 20px;
+}
+.logo {
+    float: left;
+    width: 40%;
+}
+
+.menu {
+    width: 50%;
+    height: 150px;
+    float: right;
+}
+
+.menu p {
+    font-weight: bold;
+    float: right;
+    padding-top: 5%;
+    font-size: 28px;
+}
+
+.banner {
+    
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.banner img {
+
+    width: 100%;
+  
+}
+
+.content {
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    text-align: justify;
+}
+
+.left {
+    width: 60%;
+    margin-top: 0%;
+}
+
+.left h1 {
+    padding: 0px 0px 20px;
+    font-size: 30px;
+}
+
+.left p {
+    padding-top: 31px;
+    padding-left: 0px;
+    font-size: 17px;
+ 
+}
+
+.video {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    
+}
+.video-play a{
+    height: auto;
+    width: 100%;
+}   
+
+.article {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+.first {
+    float: left;
+    width: 60%;
+}
+
+.first h1 {
+
+    font-size: 30px;
+}
+
+.first p {
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.second {
+    float: right;
+    width: 40%;
+
+}
+
+.second h1 {
+
+    font-size: 30px;
+}
+
+.second p {
+
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.box {
+
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+}
+
+.one {
+
+    width: 33%;
+    
+}
+
+.one img {
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s;
+  
+}
+.one img:hover{
+    transform: scale(1.4);
+}
+
+.two {
+
+    width: 33%;
+}
+
+.two img {
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s;
+}
+.two img:hover{
+    transform: scale(1.4);
+}
+
+.three {
+
+    width: 33%;
+}
+
+.three img {
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+.three img:hover{
+    transform: scale(1.4);
+}
+.project {
+
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    padding-bottom: 55px;
+
+}
+
+.four {
+
+    width: 55%;
+}
+
+.four h1 {
+
+    padding: 0px 0px 20px;
+}
+
+.four p {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.five {
+
+    width: 45%;
+}
+
+.five h1 {
+
+    padding-bottom: 20px;
+}
+
+.five p {
+    font-size: 17px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.pic {
+
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.six {
+    width: 48%;
+
+
+}
+
+.six img {
+    width: 100%;
+
+}
+
+.seven {
+
+    width: 48%;
+}
+
+.seven img {
+    width: 100%;
+}
+
+.big {
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.big img {
+
+    width: 100%;
+  
+}
+
+.btn {
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.btn button {
+
+    border: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-left: auto;
+    padding-top: 75px;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.title {
+
+    width: 33%;
+    padding-left: 9px;
+}
+
+.title h3 {
+
+    padding-left: 36px;
+}
+
+.title p {
+
+    padding-left: 36px;
+    padding-top: 15px;
+}
+.title img {
+
+    padding-left: 36px;
+    padding-top: 15px;
+}
+
+.titleone {
+
+    width: 33%;
+    padding-top: auto;
+}
+
+.titleone li {
+
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.titleone p {
+
+    padding: 5px;
+}
+
+.icon {
+    width: 33%;
+   
+  }
+  .icon ul {
+    list-style: none;
+    
+  }
+  .icon ul li {
+    float: right;
+    margin-right: 20px;
+
+  }
+  .icon ul li a {
+    text-decoration: none;
+   
+  }
